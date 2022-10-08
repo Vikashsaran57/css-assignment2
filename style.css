@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    border: 3px solid greenyellow;
+    background-color: azure;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+#item-one{
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px;
+    font-style: italic;
+    text-align: center;
+}
+#item-two{
+    position: relative;
+    top: 26px;
+    left: -270px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: center;
+}
+#item-three{
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 40px 0px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px;
+    font-style: italic;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+#offer{
+    margin-top: 200px;
+    margin-left: 30px;
+    height: 300px;
+    width: 350px;
+    border: 7px solid gray;
+    border-radius: 200px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: teal;
+}
+.p1{
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+}
+#p-1{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+form{
+    background-color: white;
+    border: 5px dashed red;
+    width: 420px;
+    text-align: center;
+}
+.label{
+    color: palevioletred;
+    font-weight: bold;
+}
+.input{
+    text-align: center;
+}
+#menu{
+    border: 7px solid red;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    width: 430px;
+    padding: 15px;
+    margin: 15px 0px 15px 430px;
+}
+#container-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.item{
+    background-color: aqua;
+    color: darkblue;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 28%;
+    height: 240px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.item ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.item ul li{
+    list-style: none;
+}
